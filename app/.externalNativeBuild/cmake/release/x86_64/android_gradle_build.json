@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/ejdy/Projects/Dppsms/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/ejdy/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ejdy/Projects/Dppsms/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/ejdy/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ejdy/Projects/Dppsms/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/home/ejdy/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/ejdy/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/ejdy/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/ejdy/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/ejdy/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/ejdy/Projects/Dppsms/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/ejdy/Projects/Dppsms/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/home/ejdy/Projects/Dppsms/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "4042805920902170807"
+		}
+	},
+	"toolchains" : 
+	{
+		"4042805920902170807" : 
+		{
+			"cCompilerExecutable" : "/home/ejdy/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/ejdy/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

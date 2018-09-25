@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/ejdy/Projects/Dppsms/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/ejdy/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ejdy/Projects/Dppsms/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/ejdy/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ejdy/Projects/Dppsms/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/home/ejdy/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/ejdy/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/ejdy/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/ejdy/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/ejdy/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/ejdy/Projects/Dppsms/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/ejdy/Projects/Dppsms/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/home/ejdy/Projects/Dppsms/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "4042805920902170807"
+		}
+	},
+	"toolchains" : 
+	{
+		"4042805920902170807" : 
+		{
+			"cCompilerExecutable" : "/home/ejdy/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/ejdy/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

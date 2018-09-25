@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dpp sms</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="sms_24">SMS 24</string>
+    <string name="sms_32">SMS 32</string>
+    <string name="desc">description</string>
+</resources>
